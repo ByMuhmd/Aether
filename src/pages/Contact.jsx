@@ -127,6 +127,8 @@ export default function Contact() {
                                                 <option>London</option>
                                                 <option>Dubai</option>
                                                 <option>Tokyo</option>
+                                                <option>Cairo</option>
+                                                <option>Kafr El-Sheikh</option>
                                             </select>
                                             <ChevronRight className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 rotate-90 pointer-events-none" size={18} />
                                         </div>
