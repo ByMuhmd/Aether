@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Models from './pages/Models';
 import ModelDetails from './pages/ModelDetails';
 import Compare from './pages/Compare';
+import Configurator from './pages/Configurator';
 import Innovation from './pages/Innovation';
 import Contact from './pages/Contact';
 import About from './pages/About';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/models" element={<Models />} />
             <Route path="/models/:id" element={<ModelDetails />} />
             <Route path="/compare" element={<Compare />} />
+            <Route path="/configurator" element={<Configurator />} />
             <Route path="/innovation" element={<Innovation />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
